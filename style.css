@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC&family=Bebas+Neue&family=Blinker:wght@300;600&family=Changa&family=Cinzel&family=Fira+Sans:wght@100;200;400;500;600&family=Gloria+Hallelujah&family=Londrina+Solid:wght@300&family=Michroma&family=Notable&family=Orbitron&family=Poiret+One&family=Quicksand:wght@300&family=Rokkitt:wght@200&family=Rubik+Vinyl&family=Sevillana&family=Staatliches&family=Taviraj:wght@500&family=Ubuntu:wght@700&display=swap');
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background: blue;
+}
+
+.main-wrapper {
+    background: url("Images/pexels-tima-miroshnichenko-5380608\(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 790px;
+    width: 100%;
+
+}
+
+.bdysection {
+    height: 100%;
+    /* background-color: rgba(74, 74, 183, 0.607); */
+    background: linear-gradient(181deg, transparent, rgb(57, 57, 176), rgb(43, 63, 162));
+}
+
+#navbtn {
+    color: white;
+    background-color: white;
+    border: none;
+
+}
+
+.logotxt {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logotxt span {
+    color: rgb(238, 10, 170);
+}
+
+ul {
+    list-style: none;
+}
+
+/* links */
+a {
+    text-decoration: none !important;
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+}
+
+a:hover {
+    color: rgba(238,10,170) !important;
+}
+
+/* navbar */
+
+.navbar {
+    
+    background-color: rgba(153, 153, 153, 0.25);
+}
+/* .header{
+    position:sticky;
+    top: 0px;
+} */
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar ul li {
+    /* position: relative; */
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+}
+
+.navbar ul li a {
+    /* position: relative; */
+    display: block;
+    font-family: "poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 800px;
+    line-height: 14px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+/* banner-content */
+
+.banner-section {
+    /* position: relative; */
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+
+}
+
+.banner-section  {
+    padding-bottom: 2rem;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Changa', sans-serif;
+}
+@media (max-width: 500px) {
+    .banner-section .banner-title {
+        font-size: 30px;
+        margin-top: -44px;
+    }
+}
+
+.banner-section .banner-desc {
+    /* position: relative; */
+    font-size: 25px;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: 'Rokkitt', serif;
+
+}
+@media (max-width: 500px) {
+    .banner-section .banner-desc {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+.banner-section .banner-btn {
+    /* position: relative; */
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+
+
+.dwldbtn {
+    color: white;
+    /* padding: 5px; */
+}
+
+/* footer */
+
+.footer {
+    /* position: relative; */
+    padding-top: 10px;
+}
+
+.footer .social-media .footer-list {
+    /* position: relative; */
+    margin: 0 0 20px 0;
+    display: inline-block;
+
+}
+
+.footer .social-media .footer-list li {
+    float: left;
+    margin-right: 50px;
+
+}
+
+.footer .social-media .footer-list li a {
+    /* position: relative; */
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    color: white;
+}
+
+/* about section */
+
+.about-section {
+    /* position: relative; */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.about-section .about-title {
+    /* position: relative; */
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-family: "poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.about-section .about-desk {
+    /* position: relative; */
+    font-size: 22px;
+    font-weight: 500;
+    color: #999;
+    font-family: 'Rokkitt', serif;
+}
+
+.abtimg {
+    overflow-x: hidden;
+    margin-top: 10px;
+    padding-top: -25px;
+    
+    
+}
+.abimg{
+    height: 500px;
+    border-radius: 10px;
+}
+
+.proimg {
+    width: 100%;
+    border-radius: 1%;
+    box-shadow: 0 2px 20px 0 rgb(0, 0, 0);
+
+}
+
+.projhead {
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.345);
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgb(52, 52, 209), rgb(209, 55, 55));
+
+}
+
+.projhead h2 {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 3px;
+
+}
+
+.project-section .port-title {
+    /* position: relative; */
+    padding-top: 2rem;
+    font-family: "poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.project-section .port-tech,
+.project-section .port-name {
+    /* position: relative; */
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.project-section .port-desc {
+    /* position: relative; */
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.txtarea {
+    height: 150px;
+}
+.accordion-item, .accordion-header{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 50px;
+}
+.accordion-item{
+    box-shadow: 0 2px 20px 0 rgba(29, 28, 28, 0.398);
+}
+.collapsed{
+    width: 100%;
+    height: 60px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    
+}
+.accordion-body{
+    background: rgba(153, 153, 153, 0.072);
+    color: white;
+}
+.acc{
+    margin-top: 174px;
+}
+.eduul{
+    font-family: 'Rokkitt', serif;
+
+}
+@media screen and (max-width: 990px) {
+  .about-section .about-title{
+text-align: center;
+  } 
+  .proh1{
+      text-align: center;
+  }
+  .project-section .port-title{
+      text-align: center;
+  }
+  .project-section .port-tech{
+    text-align: center;
+}
+.project-section .port-name{
+    text-align: center;
+}
+.project-section .port-desc{
+    text-align: justify;
+}
+.footicon{
+    text-align: center;
+}
+.footer .social-media .footer-list li a {
+    font-size: 30px;
+    
+}
+}
+.contact-section{
+    margin-top: 60px;
+    background-color: rgb(14 12 12 / 47%);
+}
+.proh1{
+    /* position: relative; */
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-family: "poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: rgb(244, 236, 236);
+}
+.footicon p{
+    text-decoration: none;
+    color: black;
+}
+.footerl{
+    background-color: rgba(36, 26, 26, 0.331);
+    height: 30px;
+    color: rgba(255, 255, 255, 0.27);
+    font-size: 15px;
+}
+.whatsapp{
+    color: green;
+}
+.txt{
+    text-decoration: none;
+    color: #fff;
+}
+.social{
+    display: flex;
+    gap: 35px;
+    font-size: 40px;
+}
